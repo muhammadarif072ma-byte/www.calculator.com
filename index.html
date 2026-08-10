@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Calculator Start -->
+    <div class="calculator">
+
+        <!-- Display -->
+        <div class="display">
+
+            <div id="previous"></div>
+
+            <div id="current">0</div>
+
+        </div>
+
+
+        <!-- Calculator Buttons -->
+        <div class="buttons">
+
+            <!-- First Row -->
+            <button class="operator" onclick="clearDisplay()">AC</button>
+
+            <button class="operator" onclick="deleteNumber()">
+                DEL
+            </button>
+
+            <button class="operator" onclick="percentage()">
+                %
+            </button>
+
+            <button class="operator" onclick="chooseOperator('/')">
+                ÷
+            </button>
+
+
+            <!-- Second Row -->
+            <button onclick="appendNumber('7')">
+                7
+            </button>
+
+            <button onclick="appendNumber('8')">
+                8
+            </button>
+
+            <button onclick="appendNumber('9')">
+                9
+            </button>
+
+            <button class="operator" onclick="chooseOperator('*')">
+                ×
+            </button>
+
+
+            <!-- Third Row -->
+            <button onclick="appendNumber('4')">
+                4
+            </button>
+
+            <button onclick="appendNumber('5')">
+                5
+            </button>
+
+            <button onclick="appendNumber('6')">
+                6
+            </button>
+
+            <button class="operator" onclick="chooseOperator('-')">
+                −
+            </button>
+
+
+            <!-- Fourth Row -->
+            <button onclick="appendNumber('1')">
+                1
+            </button>
+
+            <button onclick="appendNumber('2')">
+                2
+            </button>
+
+            <button onclick="appendNumber('3')">
+                3
+            </button>
+
+            <button class="operator" onclick="chooseOperator('+')">
+                +
+            </button>
+
+
+            <!-- Fifth Row -->
+            <button class="zero" onclick="appendNumber('0')">
+                0
+            </button>
+
+            <button onclick="appendNumber('.')">
+                .
+            </button>
+
+            <button class="equal" onclick="calculate()">
+                =
+            </button>
+
+        </div>
+
+    </div>
+    <!-- Calculator End -->
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+   <script src="first.js"></script> 
+</body>
+</html>
